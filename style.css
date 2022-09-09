@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    padding: 0% 2% 0% ;
+    background: #080008;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    font-size: large;
+}
+
+
+
+.nav-links li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #009fe3;
+    transition: 0.3s ease-out;
+}
+
+
+.nav-links li a::after{
+    content: '';
+    background: orange;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a::after{
+    width: 100%;
+}
+.btn{
+    background: orange;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.card_image{
+    max-width: 50%;
+    height: 50px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    height: 40vh;
+}
+
+.card{
+    width: 360px;
+    height: 300px;
+}
+
+.card-image{
+    height: 230.63px;
+    width: 309.5px;
+    background-size: cover;
+
+}
+
+.image1{
+    background-image: url(/WebsiteClone/Cobham/caes2.png);
+}
+
+.image2{
+    background-image: url(/WebsiteClone/Cobham/cavs4.png);
+}
+
+.image3{
+    background-image: url(/WebsiteClone/Cobham/cac6.png);
+}
+
+.image4{
+    background-image: url(/WebsiteClone/Cobham/c16-ventures.png);
+}
+
+.image5{
+    background-image: url(/WebsiteClone/Cobham/shutterstock_38769481.jpg);
+}
+
+.image6{
+    background-image: url(/WebsiteClone/Cobham/shutterstock_3405582.jpg);
+}
+
+.image7{
+    background-image: url(/WebsiteClone/Cobham/shutterstock_389340496.jpg)
+}
+
+.image8{
+    background-image: url(/websiteClone/COBHAM/shutterstock_003.jpg);
+}
+
+.image9{
+    background-image: url(/websiteClone/COBHAM/shutterstock_001.jpg);
+}
+
+.image10{
+    background-image: url(/websiteClone/COBHAM/shutterstock_002.jpg)
+}
+
+.image11{
+    background-image: url(/websiteClone/COBHAM/oxygen-systems_air\ .jpg);
+}
+
+
+.container3{
+    padding:  60px 170px 60px 100px;
+    background-image: url(/WebsiteClone/Cobham/background\ image.png);
+    color: white;
+    height: 700px;
+    
+    
+}
+
+.container4 {
+    padding:  60px 170px 60px 100px;
+    background-image: url(/WebsiteClone/Cobham/background\ image.png);
+    color: white;
+    height: 180px;
+}
+
+
+
+.newsCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.move{
+    margin: 100;
+}
+
+.card-image2{
+    height: 236.25px;
+    width: 445px;
+    background-size: cover;
+    padding: 0px 15px;
+
+}
+
+.footer-container {
+    background-color: #080008;
+    color: white;
+
+}
+
+.footer-container {
+    background-color: #080008;
+    width: 100%;
+
+}
+
+
+.footer {
+    width: 80%;
+    height: 57vh;
+    background-color: #080008;
+    color: white;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 14rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: grey;
+    transition: 0.3s ease-out;
+}
+
+.footer-limited-trademmark {
+    color: grey;
+    font-size: small;
+}
+
+.text-color{
+    color: #657686;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.text-color2{
+    color: #346885;
+    font-family:sans-serif;
+    font-size: 18px;
+    margin: 1% 31% 0% 6.3%;
+    font-style: italic;
+}
+
+
+.text-grey {
+    color: #657686;
+    font-size: 26.5px;
+}
+
+.font-size {
+    font-size: 45px;
+}
+
+.text-margin {
+    margin: 3% 30% 0% 6.3%;
+    color: #657686;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+
+.page2color-h{
+    display: flex;
+    align-items: flex-start;
+    color: #346885;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0.5% 0% 0% 0%;
+    max-width: 55%
+}
+
+.page2color-p{
+    margin: 6% 0% 0% 0%;
+    color: #657686;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.buscontainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-col{
+    width: 395px;
+    height: 348px;
+}
+
+.CAES {
+    margin: 0% 0% 1% 3%;
+    color: #657686;
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+.buspara{
+    margin: 0% 0% 0% 3%;
+    color: #657686;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 57%;
+}
+
+.button1 {
+    background-color: darkorange;
+    padding: 12px;
+    margin:  4% 0% 0% 3%;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.asa{
+    margin: 3% 5% 0% 0%;
+    color: #657686;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.asa2{
+    margin: 3% 5% 0% 0%;
+    color: #657686;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+
+}
+
+.button2 {
+    background-color: darkorange;
+    padding: 12px;
+    margin:  3% 5% 0% 0%;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.newscontainer {
+    padding:  60px 170px 60px 100px;
+    background-image: url(/WebsiteClone/Cobham/background\ image.png);
+    color: white;
+    height: 180px;
+}
+
+
+.newspagepara{
+    color: #657686;
+    margin: 0% 30% 0% 0%;
+
+}
+
+.newspageheader{
+    color: #657686;
+    margin: 3% 6.3% 0% 3%;
+    font-size: 28px;
+
+}
+
+.newsPageadjust{
+    margin: 1% 6.3% 0% 0%;
+}
+
+.newspageadjust2{
+    margin: 1% 6.3% 0% 0%;
+}
+
+
+.newspagepara2{
+    color: #657686;
+    margin: 1% 6.3% 0% 0%;
+
+}
